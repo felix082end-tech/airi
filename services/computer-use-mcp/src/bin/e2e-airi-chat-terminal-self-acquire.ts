@@ -272,7 +272,7 @@ function getPreferredModels(providerId: string) {
   }
 
   if (providerId === 'google-generative-ai') {
-    return ['gemini-2.5-flash', 'models/gemini-2.5-flash', 'gemini-2.5-pro']
+    return ['gemini-3.8-flash', 'models/gemini-3.8-flash', 'gemini-3.8-pro']
   }
 
   return ['openai/gpt-4o-mini', 'openai/gpt-4.1-mini']
